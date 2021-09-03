@@ -1,0 +1,121 @@
+/* Master styles sheet*/
+
+
+#main {
+	
+	background-image: url(images/background.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	
+}
+
+#about {
+	
+	
+}
+
+
+/* Navigation styles */ 
+.container {
+	
+	display: grid;
+	grid-template-columns: 1fr; /*1 fractional unit */
+
+}
+
+.nav-wrapper {
+	
+	display:flex;
+	justify-content: space-between;
+	padding: 30px;
+}
+
+.left-side {
+	
+	display:flex;
+	
+}
+
+.nav-wrapper > .left-side > div {
+	
+	margin-right: 10px;
+	font-size: 0.9em;
+	text-transform: uppercase;
+	
+}
+
+.nav-link-wrapper{
+	
+	height:22px;
+	border-bottom: 1px solid transparent;
+	transition: border-bottom 0.5s
+	
+}
+
+.nav-link-wrapper a {
+	
+	color: #8a8a8a;
+	text-decoration: none;
+	transition: color 0.5s;
+}
+
+.nav-link-wrapper:hover {
+	
+	border-bottom: 0.5px solid black;
+}
+
+
+.nav-link-wrapper a:hover{
+	
+	color: black;
+	
+}
+
+.nav-name{
+	
+	margin-right: 10px;
+	font-size: 0.9em;
+	text-transform: uppercase;
+	font-family: "Arial";
+	
+}
+
+/* About Page Styles */
+
+
+.content-wrapper {
+	
+	margin: auto;
+	padding-top: 200px;
+
+	
+}
+
+.about-items-wrapper {
+		
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	justify-content:center;
+		
+}
+
+.about-item-wrapper {
+
+	position: relative;
+		
+}
+
+
+.about-img-background {
+	
+	height: 300px;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	opacity: 0.85;
+	
+}
+
+
