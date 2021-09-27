@@ -10,11 +10,6 @@
 	
 }
 
-#about {
-	
-	
-}
-
 
 /* Navigation styles */ 
 .container {
@@ -96,7 +91,7 @@
 		
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
-	justify-content:center;
+	justify-content: center;
 		
 }
 
@@ -109,13 +104,56 @@
 
 .about-img-background {
 	
+	position: relative;
 	height: 300px;
 	width: 100%;
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
-	opacity: 0.85;
+	opacity: 1;
 	
 }
 
+.img-text-wrapper {
+	
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	
+}
 
+.subtitle {
+	
+	font-size: 30px;
+	font-weight: 900;
+	color: white;
+	
+}
+
+.image-darken {
+	
+	transition: 0.5s;
+	filter: brightness(5%);
+	
+}
+
+.subtitle a {
+	
+	color: white;
+	text-decoration: none;
+	
+}
+
+.subtitle a:hover {
+	
+	color: white;
+	border-bottom: 0.5px solid white;
+	
+}
+
+.text-out {
+
+	box-shadow: 10px 5px 5px red;
+	
+}
